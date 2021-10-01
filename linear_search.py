@@ -11,6 +11,6 @@ def verify(index):
         print("Target not found")
 
 numbers = [1,2,3,4,5,6,7,8,9]
-result=linear_search(numbers, 4)
+result=linear_search(numbers, input('Please insert the value to be searched'))
 verify(result)
 
